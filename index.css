@@ -1,0 +1,101 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    height: 100rem;
+    width: 100rem;
+}
+
+.box-main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.box-main nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-main nav a {
+    padding: 7px;
+    border-radius: 10%;
+    color: white;
+    width: 10rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.box-main nav a:hover {
+    background-color: black;
+}
+
+.geziplan {
+    background-color: #FF764E;
+}
+
+.bilgiedin {
+    background-color: #5ED3EB;
+}
+
+.karsilastir {
+    background-color: #FFCD69;
+}
+
+.box-header-content {
+    width: 100%;
+}
+
+.box-header-content div {
+    display: inline-block;
+}
+
+.box-header-content img {
+    font-family: 'Chelsea Market', cursive;
+    width: 17rem;
+    height: 14vh;
+    border-radius: 50%;
+    padding: 1em;
+    margin-top: 5rem;
+}
+
+.box-header-text {
+    width: 37%;
+    text-align: center;
+    padding: 1em;
+    margin-top: 3rem;
+    float: right;
+    margin-right: 15%;
+    line-height: 2.5em;
+}
+
+.box-content-text {
+    background-color: #DDB9A3;
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-content-text2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.box-footer div {
+    background-color: #F9E7DC;
+    margin-top: 145px;
+    height: 200px;
+    position: relative;
+}
+
+.box-footer a {
+    padding: 15px;
+    border-radius: 10%;
+    display: inline-block;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 150px;
+}
