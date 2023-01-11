@@ -1,16 +1,15 @@
-<!-- Aşağıdaki içerikleri CSS ile biçimlendirerek etiketleyin. -->
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-  <!-- Link your CSS stylesheet -->
-  <link rel="stylesheet" href="/index.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
@@ -18,77 +17,74 @@
 </head>
 
 <body>
-  <div class="box-main">
+  <header class="container">
     <nav>
-      <a class="geziplan"> Gezinizi Planlayın</a>
-      <a class="bilgiedin"> Bilgi edinin</a>
-      <a class="karsilastir">Karşılaştırın</a>
+      <a href="#" class="geziplan"> Gezinizi Planlayın</a>
+      <a href="#" class="bilgiedin"> Bilgi edinin</a>
+      <a href="#" class="karsilastir">Karşılaştırın</a>
     </nav>
-    <!-- "header_img.jpg" -->
-    <div class="box-header-content">
-      <div>
-        <img src="/assets/header_img.jpg">
-      </div>
-      <div class="box-header-text">
-        <h1>
-          Peri Bacaları Tanıtımı
-        </h1>
-        <p>
-          Gelin ve Nevşehir'in gizli güzelliklerini keşfedin.
-          Sürekli açık. Ziyaret için rezervasyona gerek yoktur.
-        </p>
-      </div>
+  </header>
+  <main class="container">
+    <div class="main-img">
+      <img src="/assets/header_img.jpg" alt="peri bacakları">
     </div>
-    <div class="box-content-text">
+    <div class="main-text">
+      <h1>
+        Peri Bacaları Tanıtımı
+      </h1>
       <p>
-        Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan Kapadokya’yı gezerken derin bir merak
-        duyduğunuzu
-        biliyoruz. ‘ Peri bacaları nasıl oluştu, insanlar peri bacalarının içlerini ustalıkla nasıl oydu, bu yeraltı
-        şehirlerini kimler yaptı, o kadar insan yerin altında nasıl yaşadı ’ diye binlerce soru geliyor gezginin
-        aklına.
-      </p>
-      <p>
-        Peri bacaları oluşumunun bilimsel açıklaması olmasına rağmen mistik havasının da şöyle düşündürdüğü biliyoruz;
-        ‘Kapadokya eskiden perilerin cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!’
+        Gelin ve Nevşehir'in gizli güzelliklerini keşfedin.
+        Sürekli açık. Ziyaret için rezervasyona gerek yoktur.
       </p>
     </div>
 
-    <!--  "hot-air-balloon.svg" -->
-    <div class="box-content-text2">
-      <p>
-      <div><img src="/assets/hot-air-balloon.svg" style="width: 6rem;"></div>
-      Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak hava balonları ile yapılan turlar. Her
-      sabah
-      gün
-      doğumundan önce yüzlerce sıcak hava balonlarından oluşan konvoy ile Kapadokya’nın eşsiz güzellikteki
-      manzaralarını
-      havadan izlemek katılımcılar için gerçekten <span style="font-weight: bold;">olağanüstü ve rüya gibi bir
-        deneyim.</span>
-
-      <p>
-        <!--  "atv.svg" -->
-      <div style="margin-top: 50px;"><img src="/assets/atv.svg" style="width: 6rem;"></div>
-
-      ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı bir yoludur. Bölgenin eşsiz ve muhteşem
-      vadileri, <span style=" font-weight: bold;">dünyanın en iyi ATV turlarından birini</span> deneyimlemenize
-      fırsat
-      verir. ATV turlarının herkes için uygun
-      bir
-      aktivite olduğunu söylemeliyiz.
-      </p>
+  </main>
+  <section id="tanitim" class="container">
+    <p>
+      Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan Kapadokya’yı gezerken derin bir merak
+      duyduğunuzu
+      biliyoruz. ‘ Peri bacaları nasıl oluştu, insanlar peri bacalarının içlerini ustalıkla nasıl oydu, bu yeraltı
+      şehirlerini kimler yaptı, o kadar insan yerin altında nasıl yaşadı ’ diye binlerce soru geliyor gezginin
+      aklına.
+    </p>
+    <p>
+      Peri bacaları oluşumunun bilimsel açıklaması olmasına rağmen mistik havasının da şöyle düşündürdüğü
+      biliyoruz;
+      ‘Kapadokya eskiden perilerin cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!’
+    </p>
+  </section>
+  <section class="container">
+    <div class="bilgi">
+      <img src="/assets/hot-air-balloon.svg">
+      <p> Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak hava balonları ile yapılan turlar.
+        Her
+        sabah
+        gün
+        doğumundan önce yüzlerce sıcak hava balonlarından oluşan konvoy ile Kapadokya’nın eşsiz güzellikteki
+        manzaralarını
+        havadan izlemek katılımcılar için gerçekten <span style="font-weight: bold;">olağanüstü ve rüya gibi bir
+          deneyim.</span></p>
     </div>
-  </div>
-  <div class="box-footer">
-    <!-- "footer_img.png" -->
-    <div style="position: relative;">
-      <img src="/assets/footer_img.jpg" style="width: 100%;">
+    <div class="bilgi">
+      <img src="/assets/atv.svg">
+      <p> ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı bir yoludur. Bölgenin eşsiz ve
+        muhteşem
+        vadileri, <span style=" font-weight: bold;">dünyanın en iyi ATV turlarından birini</span>
+        deneyimlemenize
+        fırsat
+        verir. ATV turlarının herkes için uygun
+        bir
+        aktivite olduğunu söylemeliyiz.</p>
     </div>
-    <div>
-      <a class=" geziplan"> Gezinizi Planlayın</a>
-      <a class="bilgiedin"> Bilgi edinin</a>
-      <a class="karsilastir">Karşılaştırın</a>
-    </div>
-  </div>
+  </section>
+  <footer>
+    <div></div>
+    <nav class="container">
+      <a href="#" class="geziplan"> Gezinizi Planlayın</a>
+      <a href="#" class="bilgiedin"> Bilgi edinin</a>
+      <a href="#" class="karsilastir">Karşılaştırın</a>
+    </nav>
+  </footer>
 
 </body>
 
